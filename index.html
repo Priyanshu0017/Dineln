@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DineIn</title>
+    <link rel="shortcut icon" href="data:image/png;base64,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">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="main-container">
+
+        <div class="navbar">
+
+            <h2>Dine<em>In</em></h2>
+
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Menu</a></li>
+                <li><a href="">Blob</a></li>
+                <li><a href="">About Us</a></li>
+            </ul>
+
+            <button>Contact</button>
+
+            <i id="i1" class="fa-solid fa-bars"></i>
+
+        </div>
+        <div class="navbar2">
+
+            <h2>Dine<em>In</em></h2>
+
+            <ul id="ul1">
+                <li><a href="">Home</a></li>
+                <li><a href="">Menu</a></li>
+                <li><a href="">Blob</a></li>
+                <li><a href="">About Us</a></li>
+            </ul>
+
+            <button>Contact</button>
+
+            <i id="i11" class="fa-solid fa-bars"></i>
+
+        </div>
+
+        <div class="hero-section">
+
+            <div class="left">
+
+                <h1>Hundrends of <br>
+                    <em>Flavors Under <br>
+                        One Roof</em>
+                </h1>
+
+                <span>
+                    <button>Order Now</button>
+
+                    <div class="circle">
+                        <div class="c"><img src="" alt=""></div>
+                        <div class="c"><img src="" alt=""></div>
+                        <div class="c"><img src="" alt=""></div>
+                    </div>
+
+                        <div class="h">
+                            <h6>1.8k People Reviewed</h6>
+                        <span>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        </span>
+                    </div>
+                
+
+                </span>
+
+            </div>
+
+            <div class="right">
+                <p>A taste you'll remember. Life is dull without <br>
+                   good food. Get the best or nothing at all. <br>
+                   Low cost. High quality.
+                </p>
+
+                <div class="fd">
+                    <div class="p"><i class="fa-solid fa-phone"></i></div>
+                    <div class="f"><img src="download.png" alt=""></div>
+                    <span>
+                        <h4>Food Dilivery - Dine - Pink Up</h4>
+                        <h5>We are serving quality food.</h5>
+                    </span>
+                    
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- hero-section end -->
+
+        <div class="last-section">
+
+            <div class="box">
+                <p>This restaurant has left the very best impression! <br>
+                   Hospitable hosts, delicious dishes, beautiful presentation
+                </p>
+
+                <div class="pro">
+                    <img src="download.jpg" alt="">
+                    <span>
+                        <h4>Sanvia Anne</h4>
+                        <p>New York</p>
+                    </span>
+                </div>
+
+                <hr>
+
+                <div class="pro2">
+                    
+                        <h2>15+</h2>
+                        <h3>Professional Cooks</h3>
+                    
+                </div>
+
+                <hr>
+
+                <div class="pro2">
+                    
+                        <h2>200+</h2>
+                        <h3>Dishes</h3>
+                    
+                </div>
+
+            </div>
+
+            <div class="box1">
+                <div class="dishes">
+                    <h3>200+</h3>
+                    <hr>
+                    <h3>Dishes</h3>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+</body>
+
+</html>
